@@ -1,0 +1,24 @@
+// main: coolform.less
+//////////////////////
+
+/* Override dimensions relative to `@font-size-base` from Bootstrap */
+// This way, dimensions in coolForm (standalone) will be only relative to the inherited font-size
+// and we won't depend on the `@font-size-base` variable to size the elements
+
+.form-control {
+    font-size: inherit;
+    height: 2.4286em;
+    padding: 0.4286em 0.8571em;
+}
+
+.btn {
+    font-size: inherit;
+    padding: 0.4286em 0.8571em;
+}
+
+/* Textarea */
+textarea {
+	min-height: @input-height-base;
+	max-height: @input-height-base * 26; // We don't want the user to resize the textarea to infinity, do we?
+	resize: vertical;
+}

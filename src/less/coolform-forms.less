@@ -1,0 +1,41 @@
+// main: coolform.less
+//////////////////////
+
+/* Textarea */
+textarea {
+	min-height: @input-height-base;
+	max-height: @input-height-base * 26; // We don't want the user to resize the textarea to infinity, do we?
+	resize: vertical;
+}
+
+// Feedback states
+.has-success {
+	.coolform-control-validation(@state-success-text; @state-success-text; @state-success-bg);
+}
+
+.has-warning {
+	.coolform-control-validation(@state-warning-text; @state-warning-text; @state-warning-bg);
+}
+
+.has-error {
+	.coolform-control-validation(@state-danger-text; @state-danger-text; @state-danger-bg);
+}
+
+// Checkboxes and radio addons
+.input-group-addon {
+	.cool-radio, .cool-checkbox {
+		margin-bottom: 0;
+		margin-top: 0;
+		label {
+			padding-left: 1em;
+		}
+	}
+}
+
+.input-group-sm {
+	.cool-radio, .cool-checkbox {
+        label {
+            min-height: 1em;
+        }
+	}
+}
