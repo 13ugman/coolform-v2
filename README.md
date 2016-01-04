@@ -34,4 +34,4 @@ If working with coolForm's source code is your choice, you can customize the sty
 
 ## Copyright and license
 
-Copyright 2015 [13ugman](http://13ugman.com/). Code released under the MIT license.
+Copyright 2016 [13ugman](http://13ugman.com/). Code released under the MIT license.
