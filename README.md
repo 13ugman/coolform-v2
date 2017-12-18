@@ -16,7 +16,7 @@ coolForm v2 was conceived to be compatible with Bootstrap 3. To accomplish this,
 
 coolForm v2 works in all major browsers. The exception that proves the rule is legacy Internet Explorer, as usual.
 
-While coolForm works fully perfect in IE10 and IE11, IE9 is not that cool and will render selects with the native dropdown arrow. Also keep in mind that CSS3 transitions are not supported in IE9. Regarding IE8, it's not cool at all. Nevertheless, a future release might include some jQuery magic to make IE8 cooler.
+While coolForm works fully perfect in IE10 and IE11, IE9 is not that cool and will render selects with the native dropdown arrow. Also keep in mind that CSS3 transitions are not supported in IE9.
 
 In a nutshell, the cool browsers are: **Chrome**, **Firefox**, **IE10+** (IE9 is almost completely cool), **Safari** and **Opera**.
 
@@ -34,4 +34,4 @@ If working with coolForm's source code is your choice, you can customize the sty
 
 ## Copyright and license
 
-Copyright 2016 [13ugman](http://13ugman.com/). Code released under the MIT license.
+Copyright 2017 [13ugman](http://13ugman.com/). Code released under the MIT license.
